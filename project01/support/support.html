@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>support</title>
+    <link rel="stylesheet" href="support.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <section class="support-section">
+        <div class="support-container">
+          <h2 class="head">Welcome to<a href="../Index.html"> AYOEXC</a></h2>
+          <h2>Need Help?</h2>
+          <p class="support-subtitle">Our support team is here for you 24/7</p>
+      
+            <div class="support-cards">
+                <div class="support-card">
+                  <i class="fas fa-comments support-icon"></i>
+                  <h3>Live Chat</h3>
+                  <p>Chat with our agents instantly for quick help.</p>
+                  <a href="#" class="support-btn">Start Chat</a>
+                  </div>
+          
+                  <div class="support-card">
+                  <i class="fas fa-envelope support-icon"></i>
+                  <h3>Email Support</h3>
+                  <p>Send us your issues and we’ll reply within hours.</p>
+                  <a href="mailto:support@ayoexc.com" class="support-btn">Send Email</a>
+                  </div>
+          
+                  <div class="support-card">
+                  <i class="fas fa-question-circle support-icon"></i>
+                  <h3>FAQs</h3>
+                  <p>Find answers to common questions about AYOEXC.</p>
+                  <a href="#" class="support-btn">Browse FAQs</a>
+                </div>
+            </div>
+      
+            <div class="support-form-container">
+                <h3>Submit a Ticket</h3>
+                <form class="support-form" action="https://formspree.io/f/manoqdgr"
+                method="POST">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" placeholder="Describe your issue..." required></textarea>
+                <button type="submit" class="support-btn">Send Ticket</button>
+                </form>
+            </div>
+        </div>
+      
+        <!-- Confirmation Popup -->
+        <div class="popup" id="supportPopup">
+          <div class="popup-content">
+            <h3>Thank You!</h3>
+            <p>Your support ticket has been submitted.</p>
+            <button onclick="closeSupportPopup()">OK</button>
+          </div>
+        </div>
+      </section>
+      <script src="support.js"></script>
+</body>
+</html>
+
+
+

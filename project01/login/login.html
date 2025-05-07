@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login - AYOEXC</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+  <section class="login-section">
+    <div class="login-box">
+      <h2>Welcome back to<a href="../Index.html"> AYOEXC</a></h2>
+      <form class="login-form" id="loginForm">
+        <input type="email" id="email" placeholder="Enter your email address" required>
+        <input type="password" id="password" placeholder="Enter your password" required>
+      
+        <div class="remember-forgot">
+          <label>
+            <input type="checkbox"> Remember me
+          </label>
+          <a href="../forget-password/forget-password.html">Forgot password?</a>
+        </div>
+      
+        <button type="submit" class="btn-green">LOGIN</button>
+      
+        <p class="signup-link">
+          Don't have an account? <a href="../sign-up/signup.html">Sign up</a>
+        </p>
+      </form>
+
+      <!-- Popup Success -->
+        <div class="popup" id="successPopup">
+            <div class="popup-content">
+            <h3>Login Successful!</h3>
+            <p>Welcome back to AYOEXC.</p>
+            <button onclick="closePopup()">OK</button>
+            </div>
+        </div>
+    </div>
+  </section>
+  <div class="loader" id="loader"></div>
+  <script src="login.js"></script>
+</body>
+</html>
