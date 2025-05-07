@@ -40,12 +40,6 @@ AYOEXC is a responsive and modern web platform that offers seamless digital tran
 
 
 
-Screenshots
-
-> Add screenshots here once the site is deployed or captured locally.
-
-
-
 License
 
 This project is open source and available under the MIT License.
